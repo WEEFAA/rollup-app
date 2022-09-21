@@ -1,4 +1,4 @@
-const Service = require('./services')
+import Service from './services'
 const app = new Service()
 
-module.exports = app
+export default app
