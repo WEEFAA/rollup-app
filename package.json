@@ -1,0 +1,20 @@
+{
+  "name": "rollupa-weefa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "rollup --config rollup.config.js"
+  },
+  "keywords": [
+    "rollup"
+  ],
+  "author": "Weefa",
+  "license": "ISC",
+  "dependencies": {
+    "rollup": "^2.79.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.2"
+  }
+}
